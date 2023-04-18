@@ -1,0 +1,17 @@
+C:\Users\Madsen\source\repos\RCosumer\bin\Debug\net5.0\RCosumer.exe
+C:\Users\Madsen\source\repos\RCosumer\bin\Debug\net5.0\RCosumer.deps.json
+C:\Users\Madsen\source\repos\RCosumer\bin\Debug\net5.0\RCosumer.runtimeconfig.json
+C:\Users\Madsen\source\repos\RCosumer\bin\Debug\net5.0\RCosumer.runtimeconfig.dev.json
+C:\Users\Madsen\source\repos\RCosumer\bin\Debug\net5.0\RCosumer.dll
+C:\Users\Madsen\source\repos\RCosumer\bin\Debug\net5.0\ref\RCosumer.dll
+C:\Users\Madsen\source\repos\RCosumer\bin\Debug\net5.0\RCosumer.pdb
+C:\Users\Madsen\source\repos\RCosumer\bin\Debug\net5.0\RabbitMQ.Client.dll
+C:\Users\Madsen\source\repos\RCosumer\obj\Debug\net5.0\RCosumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Madsen\source\repos\RCosumer\obj\Debug\net5.0\RCosumer.AssemblyInfoInputs.cache
+C:\Users\Madsen\source\repos\RCosumer\obj\Debug\net5.0\RCosumer.AssemblyInfo.cs
+C:\Users\Madsen\source\repos\RCosumer\obj\Debug\net5.0\RCosumer.csproj.CoreCompileInputs.cache
+C:\Users\Madsen\source\repos\RCosumer\obj\Debug\net5.0\RCosumer.csproj.CopyComplete
+C:\Users\Madsen\source\repos\RCosumer\obj\Debug\net5.0\RCosumer.dll
+C:\Users\Madsen\source\repos\RCosumer\obj\Debug\net5.0\ref\RCosumer.dll
+C:\Users\Madsen\source\repos\RCosumer\obj\Debug\net5.0\RCosumer.pdb
+C:\Users\Madsen\source\repos\RCosumer\obj\Debug\net5.0\RCosumer.genruntimeconfig.cache
