@@ -7,9 +7,30 @@ Exemplo de Producer and Consumer RabbitMQ
 </div>
 <br>
 
-O SignalR é uma biblioteca ASP.NET que nasceu em 2012 com a versão 1.0.0-alpha1, que facilita a implementação de aplicações web real-time, ele combina uma biblioteca ASP.NET Server Side, e uma biblioteca JavaScript client, a qual ajuda a manter a comunicação server-client.
+O RabbitMQ é um dos message broker de código aberto mais populares, sendo utilizado em empresas de todos os tamanhos.
 
-Criado um sistema simples de votação online em que o cliente irá receber em tempo real a atualização de votos.
+Um message broker é um sistema que permite que diferentes componentes, como aplicações e aplicativos, se comuniquem entre si, trocando informações. Para isso, geralmente utilizam uma estrutura de fila de mensagens, que será a responsável por armazenar e ordenar mensagens enquanto os consumidores (como aplicativos ou aplicações) não as processam.
+
+Voltando ao RabbitMQ: ele é leve, fácil de publicar em diversos ambientes, como localmente, on-premises e em nuvem, suportando diversos protocolos de mensageria. Por exemplo, para testes locais é bem simples de se criar uma instância utilizando Docker.
+
+Como um dos princípios da mensageria, o RabbitMQ possibilita que aplicações se conectem entre si e escalem, de maneira desacoplada.
+
+Principais conceitos
+
+Vamos agora para os principais conceitos associados ao RabbitMQ.
+
+Fila: estrutura onde as mensagens são armazenadas e consumidas. Tem como principais características, que podem ter valor verdadeiro ou falso:
+
+Durável: a fila segue existindo mesmo que o message broker reinicie;
+Auto-Delete: quando a fila chegue a ter apenas um consumidor e ele se desinscreve, a fila é apagada;
+Exclusiva: a fila é utilizada por apenas uma conexão, sendo apagada quando essa conexão for encerrada.
+Exchange: são os agentes responsáveis por rotear as mensagens para filas, utilizando atributos de cabeçalho, routing keys ou bindings.
+
+Binding: conexão utilizada para configurar uma relação entre uma fila e um exchange.
+
+Routing Key: é um atributo adicionado ao cabeçalho da mensagem, servindo como um “endereço” que o exchange poderá decidir como rotear a mensagem com base nos Bindings definidos.
+
+https://www.rabbitmq.com/documentation.html
 
 ## ⚙️ Demonstração do projeto em execução
 
@@ -17,22 +38,20 @@ vídeo aqui
 
 ## 🚀 Começando - Start
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+A maneira mais fácil de se instalar e iniciar o RabbitMQ é através de um comando utilizando Docker. Extraí do próprio site do RabbitMQ o comando Docker abaixo para se iniciar o RabbitMQ e sua ferramenta de gerenciamento, que conta com uma interface Web.
 
 Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
 
 
 ### 🔧 Instalação
 
-Instalar no NuGet Package Manager:
-
-```
-Microsoft.AspNetCore.SignalR.Core
-
-```
+# latest RabbitMQ 3.10
+docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.10-management
 
 ```
 Executar o projeto
+Navegar para a rota http://localhost:15672
+
 ```
 
 ## 🛠️ Construído com as seguintes linguagens e frameworks:
