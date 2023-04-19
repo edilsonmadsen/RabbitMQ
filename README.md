@@ -15,7 +15,7 @@ Voltando ao RabbitMQ: ele é leve, fácil de publicar em diversos ambientes, com
 
 Como um dos princípios da mensageria, o RabbitMQ possibilita que aplicações se conectem entre si e escalem, de maneira desacoplada.
 
-Principais conceitos
+Principais conceitos:
 
 Vamos agora para os principais conceitos associados ao RabbitMQ.
 
@@ -30,8 +30,6 @@ Binding: conexão utilizada para configurar uma relação entre uma fila e um ex
 
 Routing Key: é um atributo adicionado ao cabeçalho da mensagem, servindo como um “endereço” que o exchange poderá decidir como rotear a mensagem com base nos Bindings definidos.
 
-https://www.rabbitmq.com/documentation.html
-
 ## ⚙️ Demonstração do projeto em execução
 
 vídeo aqui
@@ -40,13 +38,15 @@ vídeo aqui
 
 A maneira mais fácil de se instalar e iniciar o RabbitMQ é através de um comando utilizando Docker. Extraí do próprio site do RabbitMQ o comando Docker abaixo para se iniciar o RabbitMQ e sua ferramenta de gerenciamento, que conta com uma interface Web.
 
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
+Consulte https://www.rabbitmq.com/documentation.html para saber mais detalhes.
 
 
 ### 🔧 Instalação
 
+```
 # latest RabbitMQ 3.10
 docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.10-management
+```
 
 ```
 Executar o projeto
