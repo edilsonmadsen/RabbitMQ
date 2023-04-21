@@ -32,7 +32,7 @@ Routing Key: é um atributo adicionado ao cabeçalho da mensagem, servindo como 
 
 ## ⚙️ Demonstração do projeto em execução
 
-vídeo aqui
+https://user-images.githubusercontent.com/92545393/233692557-a3612cf3-98c6-47a0-a76a-9c7b5ea62bc7.mp4
 
 ## 🚀 Começando - Start
 
