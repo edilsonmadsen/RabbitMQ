@@ -40,7 +40,6 @@ A maneira mais fácil de se instalar e iniciar o RabbitMQ é através de um coma
 
 Consulte https://www.rabbitmq.com/documentation.html para saber mais detalhes.
 
-
 ### 🔧 Instalação
 
 ```
