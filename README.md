@@ -17,7 +17,7 @@ Como um dos princípios da mensageria, o RabbitMQ possibilita que aplicações s
 
 Principais conceitos:
 
-Vamos agora para os principais conceitos associados ao RabbitMQ.
+Vamos agora para os principais conceitos associados ao RabbitMQ:
 
 Fila: estrutura onde as mensagens são armazenadas e consumidas. Tem como principais características, que podem ter valor verdadeiro ou falso:
 
