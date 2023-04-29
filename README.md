@@ -9,7 +9,6 @@ Exemplo de Producer and Consumer RabbitMQ
 
 O RabbitMQ é um dos message broker de código aberto mais populares, sendo utilizado em empresas de todos os tamanhos.
 
-
 Um message broker é um sistema que permite que diferentes componentes, como aplicações e aplicativos, se comuniquem entre si, trocando informações. Para isso, geralmente utilizam uma estrutura de fila de mensagens, que será a responsável por armazenar e ordenar mensagens enquanto os consumidores (como aplicativos ou aplicações) não as processam.
 
 Voltando ao RabbitMQ: ele é leve, fácil de publicar em diversos ambientes, como localmente, on-premises e em nuvem, suportando diversos protocolos de mensageria. Por exemplo, para testes locais é bem simples de se criar uma instância utilizando Docker.
