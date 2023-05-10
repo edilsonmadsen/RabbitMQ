@@ -16,7 +16,6 @@ Voltando ao RabbitMQ: ele é leve, fácil de publicar em diversos ambientes, com
 Como um dos princípios da mensageria, o RabbitMQ possibilita que aplicações se conectem entre si e escalem, de maneira desacoplada.
 
 Principais conceitos:
-
 Vamos agora para os principais conceitos associados ao RabbitMQ:
 Fila: estrutura onde as mensagens são armazenadas e consumidas. Tem como principais características, que podem ter valor verdadeiro ou falso:
 
