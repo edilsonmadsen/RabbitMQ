@@ -13,6 +13,7 @@ Um message broker é um sistema que permite que diferentes componentes, como apl
 
 Voltando ao RabbitMQ: ele é leve, fácil de publicar em diversos ambientes, como localmente, on-premises e em nuvem, suportando diversos protocolos de mensageria. Por exemplo, para testes locais é bem simples de se criar uma instância utilizando Docker.
 
+
 Como um dos princípios da mensageria, o RabbitMQ possibilita que aplicações se conectem entre si e escalem, de maneira desacoplada.
 
 Principais conceitos:
