@@ -3,6 +3,7 @@ Exemplo de Producer and Consumer
 RabbitMQ
 
 <br>
+
 <div align="center">
   <img src="https://user-images.githubusercontent.com/92545393/233182812-6c55b309-692b-4630-a09c-47d8b0cc7c8e.png" width="300px"/>
 </div>
